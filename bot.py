@@ -1,7 +1,10 @@
-from fastapi import FastAPI, Request
-import requests
+from fastapi import FastAPI
 
 app = FastAPI()
+
+@app.get("/")
+def test():
+    return {"status": "ok"}
 
 # 🔐 ТОКЕН MAX (ОБЯЗАТЕЛЬНО ЗАМЕНИ)
 TOKEN = "PASTE_YOUR_MAX_TOKEN"
