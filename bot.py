@@ -4,7 +4,7 @@ import requests
 app = FastAPI()
 
 # 🔐 ТВОЙ ТОКЕН MAX
-TOKEN = "PASTE_YOUR_MAX_TOKEN"
+TOKEN = "f9LHodD0cOIMUZmyfq_t-lNtX7DWfXMROP-dIxOkaWN7QjlOXx1NQ3EIW9JOt9wAS1bRLikxuEVswptZR1GU"
 BASE_URL = "https://platform-api.max.ru"
 
 
