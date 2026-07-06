@@ -1,4 +1,3 @@
-uvicorn bot:app --host 0.0.0.0 --port $PORT
 from fastapi import FastAPI, Request
 import requests
 
