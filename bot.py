@@ -1,3 +1,4 @@
+print("🔥 BOT STARTED")
 from fastapi import FastAPI, Request
 import requests
 
