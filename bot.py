@@ -2,13 +2,13 @@ from fastapi import FastAPI, Request
 import requests
 
 app = FastAPI()
-@app.get("/")
+
 
 # 🔐 ТВОЙ ТОКЕН MAX
 TOKEN = "f9LHodD0cOIMUZmyfq_t-lNtX7DWfXMROP-dIxOkaWN7QjlOXx1NQ3EIW9JOt9wAS1bRLikxuEVswptZR1GU"
-BASE_URL = "http://nsk7.bothost.ru/api/webhooks/github?token=02af784635eed5435852594ed9af9801f08d4c27c60dd1bf"
-
-
+BASE_URL = "https://platform-api.max.ru"
+WEBHOOK_URL = "http://nsk7.bothost.ru/webhook"
+@app.get("/")
 # ----------------------------
 # 💬 отправка сообщения
 # ----------------------------
